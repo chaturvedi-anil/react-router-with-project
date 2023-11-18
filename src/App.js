@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <Header/>
+      {/* add nesting functionality for different components (it is a template) */}
       <Outlet />
       <Footer />
     </>
